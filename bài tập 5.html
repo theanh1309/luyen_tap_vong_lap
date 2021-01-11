@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tổng 20 số đầu trong dãy fibonnaci</title>
+</head>
+<body>
+ <script>
+     let sothu1 = 1;
+     let sothu2 = 1;
+     let dem = 0;
+     let sum = 0;
+     while (dem<=20) {
+         let sofbnc =sothu1+sothu2;
+         sothu1=sothu2;
+         sothu2=sofbnc;
+         sum= sofbnc + sum;
+         dem++;
+     }
+     document.write(sum) ;
+
+ </script>
+</body>
+</html>
+

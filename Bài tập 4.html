@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Các số fbnc chai hết cho 5</title>
+</head>
+<body>
+<script>
+    let sothu1 = 1;
+    let sothu2 = 1;
+    while (true) {
+        let sofbnc =sothu1+sothu2;
+        if (sofbnc %5 !=0 ){
+            sothu1=sothu2;
+            sothu2=sofbnc;
+        } else {
+            document.write(sofbnc);
+            break;
+        }
+    }
+
+
+
+</script>
+</body>
+</html>
